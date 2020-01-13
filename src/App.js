@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import { Transition, TransitionGroup } from 'react-transition-group';
-// import { play, exit } from './Timelines/Controls'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import Nav from './Nav'
 import Home from './Components/Home'
 import Summary from './Components/Summary'
@@ -12,39 +10,124 @@ import LeadershipVolunteer from './Components/LeadershipVolunteer'
 import Contact from './Components/Contact'
  
 class App extends Component {
+
+  state = {
+    homeDiv: true,
+    summaryDiv: false,
+    skillsDiv: false,
+    educationDiv: false,
+    projectsDiv: false,
+    leaderDiv: false,
+    contactDiv: false
+  }
+
+  handleHomeClick = ()=>{
+    this.setState({
+      homeDiv: true,
+      summaryDiv: false,
+      skillsDiv: false,
+      educationDiv: false,
+      projectsDiv: false,
+      leaderDiv: false,
+      contactDiv: false
+    })
+  }
+
+  handleSummaryClick = ()=>{
+    this.setState({
+      homeDiv: false,
+      summaryDiv: true,
+      skillsDiv: false,
+      educationDiv: false,
+      projectsDiv: false,
+      leaderDiv: false,
+      contactDiv: false
+    })
+  }
+
+  handleSkillsClick = ()=>{
+    this.setState({
+      homeDiv: false,
+      summaryDiv: false,
+      skillsDiv: true,
+      educationDiv: false,
+      projectsDiv: false,
+      leaderDiv: false,
+      contactDiv: false
+    })
+  }
+
+  handleEducationClick = ()=>{
+    this.setState({
+      homeDiv: false,
+      summaryDiv: false,
+      skillsDiv: false,
+      educationDiv: true,
+      projectsDiv: false,
+      leaderDiv: false,
+      contactDiv: false
+    })
+  }
+
+  handleProjectsClick = ()=>{
+    this.setState({
+      homeDiv: false,
+      summaryDiv: false,
+      skillsDiv: false,
+      educationDiv: false,
+      projectsDiv: true,
+      leaderDiv: false,
+      contactDiv: false
+    })
+  }
+
+  handleLeaderClick = ()=>{
+    this.setState({
+      homeDiv: false,
+      summaryDiv: false,
+      skillsDiv: false,
+      educationDiv: false,
+      projectsDiv: false,
+      leaderDiv: true,
+      contactDiv: false
+    })
+  }
+
+  handleContactClick = ()=>{
+    this.setState({
+      homeDiv: false,
+      summaryDiv: false,
+      skillsDiv: false,
+      educationDiv: false,
+      projectsDiv: false,
+      leaderDiv: false,
+      contactDiv: true
+    })
+  }
+
   render() {
     return (
-      <BrowserRouter>
+      <><BrowserRouter>
         <div className="app">
-          <Nav/>
-          <Route render={({ location }) => {
-            const { pathname, key } = location;
-
-            return (
-              <TransitionGroup component={null}>
-                {/* <Transition
-                  key={key}
-                  appear={true}
-                  onEnter={(node, appears) => play(pathname, node, appears)}
-                  onExit={(node, appears) => exit(node, appears)}
-                  timeout={{enter: 750, exit: 150}}
-                > */}
-                  <Switch location={location}>
-                    <Route exact path="/" component={Home}/>
-                    <Route path="/summary" component={Summary} />
-                    <Route path="/skills" component={Skills} />
-                    <Route path="/education" component={Education} />
-                    <Route path="/projects" component={Projects} />
-                    <Route path="/leadershipandvolunteer" component={LeadershipVolunteer} />
-                    <Route path="/contact" component={Contact} />
-
-                  </Switch>
-                {/* </Transition> */}
-              </TransitionGroup>
-            )
-          }}/>
+            <Home view={this.state.homeDiv}/>
+            <Summary view={this.state.summaryDiv}/>
+            <Skills view={this.state.skillsDiv}/>
+            <Education view={this.state.educationDiv}/>
+            <Projects view={this.state.projectsDiv}/>
+            <LeadershipVolunteer view={this.state.leaderDiv}/>
+            <Contact view={this.state.contactDiv}/>
         </div>
-      </BrowserRouter>
+          <Nav  handleHomeClick={this.handleHomeClick}
+                handleEducationClick={this.handleEducationClick}
+                handleContactClick={this.handleContactClick}
+                handleSummaryClick={this.handleSummaryClick}
+                handleSkillsClick={this.handleSkillsClick}
+                handleProjectsClick={this.handleProjectsClick}
+                handleLeaderClick={this.handleLeaderClick}
+                handleContactClick={this.handleContactClick}
+                />
+        </BrowserRouter>
+      </>
     )
   }
 }

@@ -1,22 +1,23 @@
-import React from 'react';
+import React, {Component} from 'react';
 import { NavLink } from 'react-router-dom';
 
-const routes = [
-  { to: '/', label: 'Home' },
-  { to: '/summary', label: 'Summary' },
-  { to: '/education', label: 'Education' },
-  { to: '/skills', label: 'Skills' },
-  { to: '/projects', label: 'Projects' },
-  { to: '/leadershipandvolunteer', label: 'Leadership/Volunteer' },
-  { to: '/contact', label: 'Contact' }
-];
+class Nav extends Component {
+  
+  
+  render(){
+    console.log(this.props)
+    return (
+      <nav>
+      <NavLink strict exact to='/' key='/' onClick={this.props.handleHomeClick}>Home</NavLink>
+      <NavLink strict exact to='/summary' key='/summary' onClick={this.props.handleSummaryClick}>Summary</NavLink>
+      <NavLink strict exact to='/education' key='/education' onClick={this.props.handleEducationClick}>Education</NavLink>
+      <NavLink strict exact to='/skills' key='/skills' onClick={this.props.handleSkillsClick}>Skills</NavLink>
+      <NavLink strict exact to='/projects' key='/projects' onClick={this.props.handleProjectsClick}>Projects</NavLink>
+      <NavLink strict exact to='/leadershipandvolunteer' key='/leadershipandvolunteer' onClick={this.props.handleLeaderClick}>LeadershipVolunteer</NavLink>
+      <NavLink strict exact to='/contact' key='/contact' onClick={this.props.handleContactClick}>Contact</NavLink>
+      </nav>
+    );
+  }
+};
 
-const Nav = () => {
-  const links = routes.map(({ to, label }) => {
-    return <NavLink strict exact to={to} key={to}>{label}</NavLink>}
-  )
-
-  return <nav>{ links }</nav>;
-}
-
-export default Nav
+export default Nav;
