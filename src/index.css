@@ -90,7 +90,8 @@ nav {
 
 	transition-property: all;
 	transition-duration: .5s;
-	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+  transition-timing-function: ease-in-out;
 }
 
 .slider.closed {
@@ -198,8 +199,8 @@ nav a.active:before {
   flex-direction: column;
   justify-content: center;
   position: absolute;
-  width: 51%;
-  margin-left: 24.5%;
+  width: 60%;
+  margin-left: 20%;
   color: white;
 }
 
@@ -221,6 +222,8 @@ nav a.active:before {
   width: 51%;
   margin-left: 24.5%;
   color: white;
+  font-weight: 700;
+  font-style: italic;
 }
 
 .projects {
@@ -254,9 +257,26 @@ nav a.active:before {
 }
 
 .GCC {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
   margin-top: 40px
 }
 
 .WRDRS {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
   margin-top: 40px
+}
+
+.home-desc {
+  width: 60%;
+  margin-left: 15%
+}
+
+.title {
+  margin: 0;
 }
