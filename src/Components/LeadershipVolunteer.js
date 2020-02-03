@@ -51,7 +51,7 @@ class LeadershipVolunteer extends Component {
                             Mar 2019</p>
                         <ul style={{fontWeight: "300", fontSize: "14px", margin: "0"}}>
                             <li>Grace Community Chapel parterned with WRDRS</li>
-                            <li>Repair local's home that are affected by Hurricane Irene</li>
+                            <li>Repair local homes that are affected by Hurricane Irene</li>
                             <li>Cultivate a spiritual relationship with the home owner within a short period of time</li>
                         </ul>
                     </div>

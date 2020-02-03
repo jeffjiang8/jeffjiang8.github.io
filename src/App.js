@@ -107,7 +107,8 @@ class App extends Component {
 
   render() {
     return (
-      <><BrowserRouter>
+      <>
+      <BrowserRouter>
         <div className="app">
             <Home view={this.state.homeDiv}/>
             <Summary view={this.state.summaryDiv}/>
@@ -127,7 +128,7 @@ class App extends Component {
                 handleContactClick={this.handleContactClick}
                 />
         </BrowserRouter>
-      </>
+        </>
     )
   }
 }
