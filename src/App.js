@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import Nav from './Nav'
 import Home from './Components/Home'
-import Summary from './Components/Summary'
 import Skills from './Components/Skills'
 import Projects from './Components/Projects'
 import Education from './Components/Educations'
@@ -111,7 +110,6 @@ class App extends Component {
       <BrowserRouter>
         <div className="app">
             <Home view={this.state.homeDiv}/>
-            <Summary view={this.state.summaryDiv}/>
             <Skills view={this.state.skillsDiv}/>
             <Education view={this.state.educationDiv}/>
             <Projects view={this.state.projectsDiv}/>

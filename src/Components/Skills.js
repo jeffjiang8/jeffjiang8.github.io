@@ -5,13 +5,6 @@ import SkillPageThree from './SkillPageThree'
 
 
 class Skills extends Component {
-
-    state={
-        page1: true,
-        page2: false,
-        page3: false
-    }
-
     render(){
       return (
         <div className={this.props.view?`skills slider`:`skills slider closed`}>
@@ -23,11 +16,13 @@ class Skills extends Component {
               <div className="slide" id="slide-4">4</div>
               <div className="slide" id="slide-5">5</div>
             </div>
-            <a href="#slide-1"></a>
-            <a href="#slide-2"></a>
-            <a href="#slide-3"></a>
-            <a href="#slide-4"></a>
-            <a href="#slide-5"></a>
+            <div className="skills-navi">
+              <a href="#slide-1"></a>
+              <a href="#slide-2"></a>
+              <a href="#slide-3"></a>
+              <a href="#slide-4"></a>
+              <a href="#slide-5"></a>
+            </div>
           </div>
         </div>
       )

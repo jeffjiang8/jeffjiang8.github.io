@@ -246,7 +246,6 @@ nav a.active:before {
   width: 80%;
   margin-left: 7%;
   color: white;
-  /* justify-content: space-between; */
   height: 82vh;
   margin-top: 60px;
 }
@@ -287,8 +286,8 @@ nav a.active:before {
 }
 
 .home-desc {
-  width: 60%;
-  margin-left: 15%
+  width: 90%;
+  margin-left: 3%
 }
 
 .title {
@@ -326,24 +325,27 @@ nav a.active:before {
 .skills-slider {
   width: 100%;
   
-  height: 92vh;
+  height: 530px;
   text-align: center;
   overflow: hidden;
   border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .slides > div {
   scroll-snap-align: start;
 }
 
-.skills-slider > a:active {
+.skills-navi > a:active {
   top: 1px;
 }
-.skills-slider > a:focus {
+.skills-navi > a:focus {
   background: #000;
 }
 
-.skills-slider > a {
+.skills-navi > a {
   display: inline-flex;
   width: 0.75rem;
   height: 0.75rem;
@@ -352,16 +354,14 @@ nav a.active:before {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  /* margin: 0 0 0.5rem 0; */
   position: relative;
   margin: 10px;
 }
 
-.skills-slider > a:active {
-  top: 1px;
+.skills-navi > a:active {
   color: red;
 }
-.skills-slider > a:focus {
+.skills-navi > a:focus {
   background: #000;
   color: red;
 }
@@ -377,7 +377,9 @@ nav a.active:before {
   
   border-radius: 15px;
 
-  height: 450px
+  height: 440px;
+
+  /* position: relative; */
 }
 
 .slides::-webkit-scrollbar {
@@ -411,7 +413,17 @@ nav a.active:before {
 }
 
 .slide {
-  border-radius: 15px;
+  height: 400px;
+  position: relative;
+}
+
+.skills-navi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  height: 32px;
+  position: relative;
 }
 
 @supports (scroll-snap-type) {

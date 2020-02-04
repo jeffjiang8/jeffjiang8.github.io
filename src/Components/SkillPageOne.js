@@ -2,7 +2,23 @@ import React from 'react';
 
 const SkillPageOne = () => {
     return (
-            <h2 style={{'color': 'white'}}>page 1</h2>
+        <div className="page-one">
+            <div>
+                <p>Ruby On Rails</p>
+            </div>
+            <div>
+                <p>JavaScript</p>
+            </div>
+            <div>
+                <p>React / JSX</p>
+            </div>
+            <div>
+                <p>React Redux</p>
+            </div>
+            <div>
+                <p>HTML / CSS</p>
+            </div>
+        </div>
     );
 };
 

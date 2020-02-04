@@ -2,8 +2,22 @@ import React from 'react';
 
 const SkillPageThree = () => {
     return (
-        <div>
-            <h2 style={{'color': 'white'}}>page 3</h2>
+        <div className="page-three">
+            <div>
+                <p>Matlab</p>
+            </div>
+            <div>
+                <p>AutoCad</p>
+            </div>
+            <div>
+                <p>LTSpice</p>
+            </div>
+            <div>
+                <p>PSpice</p>
+            </div>
+            <div>
+                <p>New Skill To Master</p>
+            </div>
         </div>
     );
 };

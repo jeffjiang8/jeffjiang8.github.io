@@ -6,9 +6,10 @@ class Home extends Component {
             <div className={this.props.view?`home slider`:`home slider closed`}>
                 <h1 className="header">I'm Jinfeng (Jeff) Jiang.</h1>
                 <div className="home-desc">
-                    <p>A recent graduate of Rutgers University and Flatiron School,</p> 
-                    <p>experienced in Ruby on Rails, JavaScript and React.js,</p>
-                    <p>who is both thrilled and eager to seek professional experience.</p>
+                    <p>Recently graduated Full Stack Developer skilled in circuit building, Ruby on Rails, JavaScript, and React,</p> 
+                    <p>combining the skill set in Electrical Engineering with the mindset of Software Engineer.</p>
+                    <p>Through being a participant of the Rutgers F1 team in the past,</p>
+                    <p> I discovered a passion and curiosity for solving problems through analytics.</p>
                 </div>
             </div>
         );
