@@ -109,6 +109,9 @@ class App extends Component {
       <>
       <BrowserRouter>
         <div className="app">
+        <div class="bg"></div>
+        <div class="bg bg2"></div>
+        <div class="bg bg3"></div>
             <Home view={this.state.homeDiv}/>
             <Skills view={this.state.skillsDiv}/>
             <Education view={this.state.educationDiv}/>
