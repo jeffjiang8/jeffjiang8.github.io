@@ -7,7 +7,7 @@ const SkillPageThree = () => {
                 <p>Matlab</p>
                 <div className="bar">    
                     <div className="progress1 progress-moved">
-                        <div className="progress-bar1" >
+                        <div className="progress-bar7" >
                         </div>                       
                     </div> 
                 </div>
@@ -16,7 +16,7 @@ const SkillPageThree = () => {
                 <p>AutoCad</p>
                 <div className="bar">    
                     <div className="progress1 progress-moved">
-                        <div className="progress-bar1" >
+                        <div className="progress-bar7" >
                         </div>                       
                     </div> 
                 </div>
@@ -25,7 +25,7 @@ const SkillPageThree = () => {
                 <p>LTSpice</p>
                 <div className="bar">    
                     <div className="progress1 progress-moved">
-                        <div className="progress-bar1" >
+                        <div className="progress-bar8" >
                         </div>                       
                     </div> 
                 </div>
@@ -34,7 +34,7 @@ const SkillPageThree = () => {
                 <p>PSpice</p>
                 <div className="bar">    
                     <div className="progress1 progress-moved">
-                        <div className="progress-bar1" >
+                        <div className="progress-bar8" >
                         </div>                       
                     </div> 
                 </div>
@@ -43,7 +43,7 @@ const SkillPageThree = () => {
                 <p>New Skill To Master</p>
                 <div className="bar">    
                     <div className="progress1 progress-moved">
-                        <div className="progress-bar1" >
+                        <div className="progress-bar9" >
                         </div>                       
                     </div> 
                 </div>

@@ -380,19 +380,6 @@ nav a.active:before {
 
   height: 440px;
   
-  /* position: relative; */
-}
-
-.slides::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
-}
-.slides::-webkit-scrollbar-thumb {
-  background: black;
-  border-radius: 15px;
-}
-.slides::-webkit-scrollbar-track {
-  background: transparent;
 }
 
 .slides > div {
@@ -475,14 +462,138 @@ nav a.active:before {
 }
 
 .progress-moved .progress-bar1 {
+  width: 85%; 
+  background-color: #EF476F;  
+  animation: progressAnimation 3s;
+}
+
+.progress-bar2 {
+  height: 18px;
+  border-radius: 5px;
+  background-image: 
+    linear-gradient(to bottom, rgb(142, 255, 255), rgb(0, 168, 168));
+  transition: 0.4s linear;  
+  transition-property: width, background-color;    
+}
+
+.progress-moved .progress-bar2 {
+  width: 85%; 
+  background-color: #EF476F;  
+  animation: progressAnimation 3s;
+}
+
+.progress-bar3 {
+  height: 18px;
+  border-radius: 5px;
+  background-image: 
+    linear-gradient(to bottom, rgb(142, 255, 255), rgb(0, 168, 168));
+  transition: 0.4s linear;  
+  transition-property: width, background-color;    
+}
+
+.progress-moved .progress-bar3 {
+  width: 75%; 
+  background-color: #EF476F;  
+  animation: progressAnimation 3s;
+}
+
+.progress-bar4 {
+  height: 18px;
+  border-radius: 5px;
+  background-image: 
+    linear-gradient(to bottom, rgb(142, 255, 255), rgb(0, 168, 168));
+  transition: 0.4s linear;  
+  transition-property: width, background-color;    
+}
+
+.progress-moved .progress-bar4 {
   width: 70%; 
   background-color: #EF476F;  
   animation: progressAnimation 3s;
 }
 
+.progress-bar5 {
+  height: 18px;
+  border-radius: 5px;
+  background-image: 
+    linear-gradient(to bottom, rgb(152, 255, 255), rgb(0, 168, 168));
+  transition: 0.4s linear;  
+  transition-property: width, background-color;    
+}
+
+.progress-moved .progress-bar5 {
+  width: 60%; 
+  background-color: #EF476F;  
+  animation: progressAnimation 3s;
+}
+
+.progress-bar6 {
+  height: 18px;
+  border-radius: 5px;
+  background-image: 
+    linear-gradient(to bottom, rgb(152, 255, 255), rgb(0, 168, 168));
+  transition: 0.4s linear;  
+  transition-property: width, background-color;    
+}
+
+.progress-moved .progress-bar6 {
+  width: 50%; 
+  background-color: #EF476F;  
+  animation: progressAnimation 3s;
+}
+
+.progress-bar7 {
+  height: 18px;
+  border-radius: 5px;
+  background-image: 
+    linear-gradient(to bottom, rgb(152, 255, 255), rgb(0, 168, 168));
+  transition: 0.4s linear;  
+  transition-property: width, background-color;    
+}
+
+.progress-moved .progress-bar7 {
+  width: 60%; 
+  background-color: #EF476F;  
+  animation: progressAnimation 3s;
+}
+
+.progress-bar8 {
+  height: 18px;
+  border-radius: 5px;
+  background-image: 
+    linear-gradient(to bottom, rgb(152, 255, 255), rgb(0, 168, 168));
+  transition: 0.4s linear;  
+  transition-property: width, background-color;    
+}
+
+.progress-moved .progress-bar8 {
+  width: 80%; 
+  background-color: #EF476F;  
+  animation: progressAnimation 3s;
+}
+
+.progress-bar9 {
+  height: 18px;
+  border-radius: 5px;
+  background-image: 
+    linear-gradient(to bottom, rgb(152, 255, 255), rgb(0, 168, 168));
+  transition: 0.4s linear;  
+  transition-property: width, background-color;    
+}
+
+.progress-moved .progress-bar9 {
+  width: 0%; 
+  background-color: #EF476F;  
+  animation: progressAnimation 3s;
+}
+
+.slide > a {
+  text-decoration: none;
+}
+
 @keyframes progressAnimation {
   0%   { width: 5%; background-color: #F9BCCA;}
-  100% { width: 70%; background-color: #EF476F; }
+  /* 100% { width: 100%; background-color: #EF476F; } */
 }
 
 html {

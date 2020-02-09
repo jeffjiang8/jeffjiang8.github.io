@@ -12,16 +12,22 @@ class Skills extends Component {
             <div class="slides">
               <div className="slide" id="slide-1">
                 <SkillPageOne/>
+                <a href="#slide-2">&gt;</a>
+                &nbsp;&nbsp;
               </div>
               <div className="slide" id="slide-2">
+                <a href="#slide-1">&lt;</a>
                 <SkillPageTwo/>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#slide-3">&gt;</a>
               </div>
               <div className="slide" id="slide-3">
+                <a href="#slide-2">&lt;</a>
                 <SkillPageThree/>
               </div>
             </div>
             {/* <div className="skills-navi">
-              <a href="#slide-1"></a>
+              <a href="#slide-1">&lt;</a>
               <a href="#slide-2"></a>
               <a href="#slide-3"></a>
             </div> 

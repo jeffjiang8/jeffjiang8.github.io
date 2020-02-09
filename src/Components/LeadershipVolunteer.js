@@ -15,13 +15,13 @@ class LeadershipVolunteer extends Component {
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             New Brunswick, NJ </p>
-                        <p style={{fontWeight: "300"}} className="title">Summer Cell Group Leader 	
+                        <p style={{fontWeight: "500"}} className="title">Summer Cell Group Leader 	
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             May - Sep 2018, May - Sep 2019</p>
-                        <ul style={{fontWeight: "300", fontSize: "14px", margin: "0"}}>
+                        <ul style={{fontWeight: "500", fontSize: "14px", margin: "0"}}>
                             <li>Organize weekly activities and Bible study</li>
                             <li>Debrief with pastors</li>
                             <li>Communicate and foster relationships with group members</li>

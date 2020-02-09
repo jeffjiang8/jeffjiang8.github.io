@@ -16,7 +16,7 @@ const SkillPageOne = () => {
                 <p>JavaScript</p>
                 <div className="bar">    
                     <div className="progress1 progress-moved">
-                        <div className="progress-bar1" >
+                        <div className="progress-bar2" >
                         </div>                       
                     </div> 
                 </div>
@@ -34,7 +34,7 @@ const SkillPageOne = () => {
                 <p>React Redux</p>
                 <div className="bar">    
                     <div className="progress1 progress-moved">
-                        <div className="progress-bar1" >
+                        <div className="progress-bar3" >
                         </div>                       
                     </div> 
                 </div>
