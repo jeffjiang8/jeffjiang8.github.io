@@ -382,6 +382,22 @@ nav a.active:before {
   
 }
 
+.slides::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.slides::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 15px;
+}
+.slides::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.slide > p {
+  font-size: 50px;
+}
+
 .slides > div {
   scroll-snap-align: start;
   flex-shrink: 0;
@@ -585,10 +601,6 @@ nav a.active:before {
   width: 0%; 
   background-color: #EF476F;  
   animation: progressAnimation 3s;
-}
-
-.slide > a {
-  text-decoration: none;
 }
 
 @keyframes progressAnimation {

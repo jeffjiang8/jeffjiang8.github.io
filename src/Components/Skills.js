@@ -5,6 +5,10 @@ import SkillPageThree from './SkillPageThree'
 
 
 class Skills extends Component {
+
+    handleClick = (e) => {
+      console.log(e.targer)
+    }
     render(){
       return (
         <div className={this.props.view?`skills slider`:`skills slider closed`}>
@@ -12,26 +16,19 @@ class Skills extends Component {
             <div class="slides">
               <div className="slide" id="slide-1">
                 <SkillPageOne/>
-                <a href="#slide-2">&gt;</a>
-                &nbsp;&nbsp;
+                <p>&gt;</p>
               </div>
               <div className="slide" id="slide-2">
-                <a href="#slide-1">&lt;</a>
+                <p>&lt;</p>
                 <SkillPageTwo/>
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="#slide-3">&gt;</a>
+                <p>&gt;</p>
               </div>
               <div className="slide" id="slide-3">
-                <a href="#slide-2">&lt;</a>
+                <p>&lt;</p>
                 <SkillPageThree/>
               </div>
             </div>
-            {/* <div className="skills-navi">
-              <a href="#slide-1">&lt;</a>
-              <a href="#slide-2"></a>
-              <a href="#slide-3"></a>
-            </div> 
-            */}
           </div>
         </div>
       )

@@ -9,6 +9,7 @@ class Projects extends Component {
                     <img src='http://localhost:3000/images/hardware.png' alt="meh" className="hardware-icon"/>
                     Hardware Projects
                 </button>
+                <div className="projects-split"></div>
                 <button className="software">
                     <img src='http://localhost:3000/images/software.png' alt="meh" className="software-icon"/>
                     Software Projects
