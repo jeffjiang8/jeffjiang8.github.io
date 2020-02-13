@@ -4,7 +4,7 @@ class Home extends Component {
     render() {
         return (
             <div className={this.props.view?`home slider`:`home slider closed`}>
-                <h1 className="header">I'm Jinfeng (Jeff) Jiang.</h1>
+                <h1 className="header">I'm Jinfeng Jiang.</h1>
                 <div className="home-desc">
                     <p style={{ 'font-weight': '500'}}>Recently graduated Full Stack Developer skilled in circuit building, Ruby on Rails, JavaScript, and React,</p> 
                     <p style={{ 'font-weight': '500'}}>combining the skill set in Electrical Engineering with the mindset of Software Engineer.</p>
