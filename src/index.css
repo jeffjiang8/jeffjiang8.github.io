@@ -341,37 +341,20 @@ nav a.active:before {
   justify-content: center;
 }
 
+.projects-slider {
+  width: 100%;
+  
+  height: 530px;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .slides > div {
   scroll-snap-align: start;
-}
-
-.skills-navi > a:active {
-  top: 1px;
-}
-.skills-navi > a:focus {
-  background: #000;
-}
-
-.skills-navi > a {
-  display: inline-flex;
-  width: 0.75rem;
-  height: 0.75rem;
-  background: white;
-  text-decoration: none;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-
-  position: relative;
-  margin: 10px;
-}
-
-.skills-navi > a:active {
-  color: red;
-}
-.skills-navi > a:focus {
-  background: #000;
-  color: red;
 }
 
 .slides {
@@ -386,7 +369,6 @@ nav a.active:before {
   border-radius: 15px;
 
   height: 440px;
-  
 }
 
 .slides::-webkit-scrollbar {
@@ -428,15 +410,6 @@ nav a.active:before {
   position: relative;
 }
 
-.skills-navi {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  position: relative;
-  height: 32px;
-  position: relative;
-}
-
 .skill-items > p {
   font-size: 20px;
   margin: 0;
@@ -450,12 +423,6 @@ nav a.active:before {
   flex-direction: row;
   justify-content: center space-between;
   margin-top: 15px;
-}
-
-@supports (scroll-snap-type) {
-  .skills-slider > a {
-    display: none;
-  }
 }
 
 .page-one {

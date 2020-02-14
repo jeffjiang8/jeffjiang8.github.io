@@ -1,13 +1,32 @@
 import React, { Component } from 'react';
+import ProjectItemOne from './ProjectItemOne'
+import ProjectItemTwo from './ProjectItemTwo'
+import ProjectItemThree from './ProjectItemThree'
 
 
 class Projects extends Component {
 
     render() {
-        console.log(this.props)
         return (
             <div className={this.props.view?`projects slider`:`projects slider closed`}>
-               
+               <div className="projects-slider">
+                    <div class="slides">
+                    <div className="slide" id="slide-1">
+                        <ProjectItemOne/>
+                        <p>&gt;</p>
+                    </div>
+                    <div className="slide" id="slide-2">
+                        <p>&lt;</p>
+                        <ProjectItemTwo/>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <p>&gt;</p>
+                    </div>
+                    <div className="slide" id="slide-3">
+                        <p>&lt;</p>
+                        <ProjectItemThree/>
+                    </div>
+                    </div>
+                </div>
             </div>
         );
     }

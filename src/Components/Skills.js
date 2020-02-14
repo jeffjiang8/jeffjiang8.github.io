@@ -6,9 +6,6 @@ import SkillPageThree from './SkillPageThree'
 
 class Skills extends Component {
 
-    handleClick = (e) => {
-      console.log(e.targer)
-    }
     render(){
       return (
         <div className={this.props.view?`skills slider`:`skills slider closed`}>

@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class ProjectItemOne extends Component {
     render() {
         return (
-            <div>
-                
+            <div className="project-one">
+                <p>Project One</p>
             </div>
         );
     }
