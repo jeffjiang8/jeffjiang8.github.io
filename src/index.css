@@ -228,7 +228,7 @@ nav a.active:before {
 
 .projects {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   position: absolute;
   width: 49%;
@@ -237,6 +237,7 @@ nav a.active:before {
   justify-content: space-around;
   align-items: center;
 }
+
 
 .skills {
   display: flex;
@@ -304,6 +305,7 @@ nav a.active:before {
   height: 300px;
   align-items: center;
   background: rgba(0, 0, 1, 0.3);
+  margin: 10px;
 }
 
 .software {
@@ -316,6 +318,7 @@ nav a.active:before {
   height: 300px;
   align-items: center;
   background: rgba(0, 0, 1, 0.3);
+  margin: 10px;
 }
 
 .hardware-icon {
