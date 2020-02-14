@@ -228,16 +228,86 @@ nav a.active:before {
 
 .projects {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   position: absolute;
-  width: 49%;
-  margin-left: 24.5%;
+  width: 80%;
+  margin-left: 7%;
   color: white;
-  justify-content: space-around;
-  align-items: center;
+  height: 92vh;
+  margin-top: 40px;
 }
 
+.project-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin-left: 10%;
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+}
+
+
+.frogger-img {
+  padding-top: 100px;
+  width: 800px;
+  position: absolute;
+  z-index: -1;
+}
+
+.overlay-open {
+  width: 100%;
+  position: relative;
+  height: 500px;
+  background-color: black;
+  opacity: 90%;
+  transition-property: all;
+	transition-duration: .5s;
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+  transition-timing-function: ease-in-out;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.overlay {
+  max-height: 0;
+}
+
+.frogger-desc {
+  padding-top: 100px;
+  font-size: 30px;
+  opacity: 100%;
+  transition-property: all;
+	transition-duration: .5s;
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+  transition-timing-function: ease-in-out;
+  align-content: center;
+  margin-top: 100px;
+}
+
+.frogger-desc-closed {
+  display: none;
+}
+
+.frogger-code {
+  opacity: 100%;
+  transition-property: all;
+	transition-duration: .5s;
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+  transition-timing-function: ease-in-out;
+  align-content: center;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+.frogger-code-closed {
+  display: none;
+}
 
 .skills {
   display: flex;
@@ -619,4 +689,3 @@ body {
     transform:translateX(25%);
   }
 }
-
