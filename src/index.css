@@ -238,6 +238,17 @@ nav a.active:before {
   margin-top: 40px;
 }
 
+.project-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin-left: 10%;
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+}
+
 .project-two {
   display: flex;
   flex-direction: column;
@@ -282,7 +293,7 @@ nav a.active:before {
   font-size: 30px;
   opacity: 100%;
   transition-property: all;
-	transition-duration: .5s;
+	transition-duration: 0.5s;
   transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
   transition-timing-function: ease-in-out;
   align-content: center;
@@ -303,6 +314,10 @@ nav a.active:before {
   text-decoration: none;
   color: white;
   font-size: 30px;
+}
+
+.frogger-code:hover{
+  color: rgb(0, 168, 168);
 }
 
 .frogger-code-closed {

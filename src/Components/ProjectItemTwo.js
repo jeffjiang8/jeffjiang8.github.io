@@ -7,7 +7,6 @@ class ProjectItemTwo extends Component {
     }
 
     handleHover = ()=>{
-        console.log('hovering')
         this.setState({
             closed: !this.state.closed
         })

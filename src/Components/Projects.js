@@ -13,12 +13,13 @@ class Projects extends Component {
                     <div class="slides">
                     <div className="slide" id="slide-1">
                         <ProjectItemOne/>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <p>&gt;</p>
                     </div>
                     <div className="slide" id="slide-2">
                         <p>&lt;</p>
                         <ProjectItemTwo/>
-                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <p>&gt;</p>
                     </div>
                     <div className="slide" id="slide-3">
