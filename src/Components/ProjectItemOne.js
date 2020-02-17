@@ -17,17 +17,23 @@ class ProjectItemOne extends Component {
             <div className="project-one" onMouseEnter={this.handleHover} onMouseLeave={this.handleHover}>
                 <div className={this.state.closed?`overlay`:`overlay-open`}>
                 <p className={this.state.closed?`frogger-desc-closed`:`frogger-desc`}>
-                        This is a clone of the classic game named Frogger.<br></br>
-                        This collaborative project is composed with JavaScript.<br></br>
+                        A personal app for spontaneous-trip takers.<br></br>
+                        JavaScript, React.js, and Ruby on Rails.<br></br>
                     </p>
                     <div className="frogger-links">
-                        <a href="https://github.com/maryfarner18/critter-crossing-frontend" 
+                        <a href="https://github.com/jeffjiang8/u-trippin-frontend" 
                             target="_blank"
                             className={this.state.closed?"frogger-code-closed":"frogger-code"}>
-                            [Code]
+                            [Front-end]
                         </a>
                         &nbsp;
-                        <a href="https://www.youtube.com/watch?v=Zkm7kYnViZc&feature=youtu.be" 
+                        <a href="https://github.com/jeffjiang8/u-trippin-backend" 
+                            target="_blank"
+                            className={this.state.closed?"frogger-code-closed":"frogger-code"}>
+                            [Back-end]
+                        </a>
+                        &nbsp;
+                        <a href="https://www.youtube.com/watch?v=CB4F-m4zn_I&t=39s" 
                             target="_blank"
                             className={this.state.closed?"frogger-code-closed":"frogger-code"}>
                             [Demo]

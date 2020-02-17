@@ -25,6 +25,7 @@ class Projects extends Component {
                     <div className="slide" id="slide-3">
                         <p>&lt;</p>
                         <ProjectItemThree/>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </div>
                     </div>
                 </div>
