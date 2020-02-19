@@ -17,8 +17,8 @@ class ProjectItemThree extends Component {
             <div className="project-three" onMouseEnter={this.handleHover} onMouseLeave={this.handleHover}>
                 <div className={this.state.closed?`overlay`:`overlay-open`}>
                 <p className={this.state.closed?`frogger-desc-closed`:`frogger-desc`}>
-                        A personal app for spontaneous-trip takers.<br></br>
-                        JavaScript, React.js, and Ruby on Rails.<br></br>
+                        An interactive TV-Show discussion app<br></br>
+                        #RubyonRails #API<br></br>
                     </p>
                     <div className="frogger-links">
                         <a href="https://github.com/VPoshelyuk/WeWatch" 
@@ -27,7 +27,7 @@ class ProjectItemThree extends Component {
                             [Code]
                         </a>
                         &nbsp;
-                        <a href="https://www.youtube.com/watch?v=CB4F-m4zn_I&t=39s" 
+                        <a href="https://www.youtube.com/watch?v=lWUBnDXkoCg" 
                             target="_blank"
                             className={this.state.closed?"frogger-code-closed":"frogger-code"}>
                             [Demo]

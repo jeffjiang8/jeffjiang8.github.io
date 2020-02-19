@@ -17,7 +17,7 @@ class ProjectItemTwo extends Component {
                 <div className={this.state.closed?`overlay`:`overlay-open`}>
                     <p className={this.state.closed?`frogger-desc-closed`:`frogger-desc`}>
                         This is a clone of the classic game named Frogger.<br></br>
-                        This collaborative project is composed with JavaScript.<br></br>
+                        #JavaScript<br></br>
                     </p>
                     <div className="frogger-links">
                         <a href="https://github.com/maryfarner18/critter-crossing-frontend" 

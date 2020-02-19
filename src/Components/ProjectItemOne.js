@@ -17,8 +17,8 @@ class ProjectItemOne extends Component {
             <div className="project-one" onMouseEnter={this.handleHover} onMouseLeave={this.handleHover}>
                 <div className={this.state.closed?`overlay`:`overlay-open`}>
                 <p className={this.state.closed?`frogger-desc-closed`:`frogger-desc`}>
-                        A personal app for spontaneous-trip takers.<br></br>
-                        JavaScript, React.js, and Ruby on Rails.<br></br>
+                        A useful and interactive web app for spontaneous-trips takers.<br></br>
+                        #JavaScript #React.js #RubyonRails #API<br></br>
                     </p>
                     <div className="frogger-links">
                         <a href="https://github.com/jeffjiang8/u-trippin-frontend" 
