@@ -209,9 +209,9 @@ nav a.active:before {
   flex-direction: column;
   justify-content: center;
   position: absolute;
-  width: 51%;
-  margin-left: 24.5%;
+  width: 100%;
   color: white;
+  margin-top:50px;
 }
 
 .leader {
@@ -287,8 +287,8 @@ nav a.active:before {
   opacity: 90%;
   transition-property: all;
 	transition-duration: .5s;
-  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-  transition-timing-function: ease-in-out;
+  /* transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+  transition-timing-function: ease-in-out; */
   align-content: center;
   display: flex;
   flex-direction: column;
@@ -305,8 +305,8 @@ nav a.active:before {
   opacity: 100%;
   transition-property: all;
 	transition-duration: 10s;
-  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-  transition-timing-function: ease-in-out;
+  /* transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+  transition-timing-function: ease-in-out; */
   align-content: center;
   margin-top: 100px;
 }
@@ -319,8 +319,8 @@ nav a.active:before {
   opacity: 100%;
   transition-property: all;
 	transition-duration: .5s;
-  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-  transition-timing-function: ease-in-out;
+  /* transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+  transition-timing-function: ease-in-out; */
   align-content: center;
   text-decoration: none;
   color: white;
@@ -716,15 +716,63 @@ body {
   }
 }
 
+.contact-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 90%;
+  margin-left: 5%;
+}
+
 .profile-pic {
   width: 240px;
   height: 240px;
   position: relative;
   overflow: hidden;
   border-radius: 50%;
+  margin: 0;
 }
 
 .pic {
   display: inline;
   margin: 0 auto;
+}
+
+.desc-text {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  text-align: left;
+  margin: 0;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+}
+
+.underline {
+  width: 100%;
+  height: 1px;
+  background-color: white;
+}
+
+.download-btn {
+  border: none;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.5s;
+  width: 200px;
+  height: 30px;
+}
+
+.download-btn:hover {
+  background-color: rgb(0, 168, 168);
+}
+
+.resume-link {
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(37,37,37,1);
 }
