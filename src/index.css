@@ -62,6 +62,7 @@ nav {
   width: 51%;
   margin-left: 24.5%;
   position: absolute;
+  margin-top:50px;
 }
 
 .logo {
@@ -202,6 +203,7 @@ nav a.active:before {
   width: 60%;
   margin-left: 20%;
   color: white;
+  margin-top:50px;
 }
 
 .contact {
@@ -224,6 +226,7 @@ nav a.active:before {
   color: white;
   font-weight: 700;
   font-style: italic;
+  margin-top:50px;
 }
 
 .projects {
