@@ -4,7 +4,16 @@ class Contact extends Component {
     render() {
         return (
             <div className={this.props.view?`contact slider`:`contact slider closed`}>
-                <h1 style={{'color': 'white'}}>Contacts</h1>
+                <div className="contact-details">
+                    <div className="profile-pic">
+                        <img src='http://localhost:3000/images/profilepic.png' alt='meh' className="pic"/>
+                    </div>
+                    <div className="resume">
+                        <button className="download-btn">
+                            <a href="http://localhost:3000/images/2020JIANG.pdf" target="_blank">Download Resume</a>
+                        </button>
+                    </div>
+                </div>
             </div>
         );
     }
