@@ -34,7 +34,7 @@ class ProjectItemThree extends Component {
                         </a>
                     </div>
                 </div>
-                <img src='http://localhost:3000/images/wewatch.gif' alt='meh' className="frogger-img"/>
+                <img src='./images/wewatch.gif' alt='meh' className="frogger-img"/>
             </div>
         );
     }

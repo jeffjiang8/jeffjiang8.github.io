@@ -5,7 +5,7 @@ class LeadershipVolunteer extends Component {
         return (
             <div className={this.props.view?`leader slider`:`leader slider closed`}>
                 <div className="GCC">
-                    <img src="http://localhost:3000/images/GCCLOGO.png" alt="meh" className="logo"/>
+                    <img src="./images/GCCLOGO.png" alt="meh" className="logo"/>
                     <div className="desc">
                         <p style={{'margin': '0'}}>Grace Community Chapel
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -29,7 +29,7 @@ class LeadershipVolunteer extends Component {
                     </div>
                 </div>
                 <div className="WRDRS">
-                    <img src="http://localhost:3000/images/WRDRS.png" alt="meh" className="logo"/>
+                    <img src="./images/WRDRS.png" alt="meh" className="logo"/>
                     <div className="desc">
                         <p style={{'margin': '0'}}>World Renew Disaster Relief Service	
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

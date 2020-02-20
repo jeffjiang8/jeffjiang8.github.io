@@ -6,7 +6,7 @@ class Educations extends Component {
         return (
             <div className={this.props.view?`education slider`:`education slider closed`}>
                 <div className="rutgers">
-                    <img src="http://localhost:3000/images/Rutgers_Scarlet_Knights_logo.png" alt="meh" className="logo"/>
+                    <img src="./images/Rutgers_Scarlet_Knights_logo.png" alt="meh" className="logo"/>
                     <div className="desc">
                         <p>Rutgers, The State University of New Jersey, New Brunswick 
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -17,7 +17,7 @@ class Educations extends Component {
                     </div>
                 </div>
                 <div className="flatiron">
-                    <img src="http://localhost:3000/images/flatironschool.png" alt="meh" className="logo"/>
+                    <img src="./images/flatironschool.png" alt="meh" className="logo"/>
                     <div className="desc">
                         <p>Flatiron School 	
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

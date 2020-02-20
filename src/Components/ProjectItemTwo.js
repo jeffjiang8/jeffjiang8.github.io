@@ -33,7 +33,7 @@ class ProjectItemTwo extends Component {
                         </a>
                     </div>
                 </div>
-                <img src='http://localhost:3000/images/frogger.gif' alt='meh' className="frogger-img"/>
+                <img src='./images/frogger.gif' alt='meh' className="frogger-img"/>
             </div>
         );
     }
