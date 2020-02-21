@@ -14,7 +14,7 @@ class ProjectItemOne extends Component {
 
     render() {
         return (
-            <div className="project-one" onMouseEnter={this.handleHover} onMouseLeave={this.handleHover}>
+            <div className="project-one" onClick={this.handleHover}>
                 <div className={this.state.closed?`overlay`:`overlay-open`}>
                 <p className={this.state.closed?`frogger-desc-closed`:`frogger-desc`}>
                         A useful and interactive web app for spontaneous-trips takers.<br></br>
