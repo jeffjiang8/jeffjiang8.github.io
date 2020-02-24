@@ -250,7 +250,6 @@ nav a.active:before {
   position: relative;
   height: 500px;
   overflow: hidden;
-  cursor: pointer;
 }
 
 .project-two {
@@ -275,68 +274,94 @@ nav a.active:before {
   overflow: hidden;
 }
 
-
-.frogger-img {
+.utrippin-img {
   padding-top: 100px;
-  width: 800px;
-  position: absolute;
+  width: 600px;
+  position: relative;
   z-index: -1;
 }
 
-.overlay-open {
-  width: 100%;
-  position: relative;
-  height: 500px;
-  background-color: black;
-  opacity: 90%;
-  transition-property: all;
-	transition-duration: .5s;
-  /* transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-  transition-timing-function: ease-in-out; */
-  align-content: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.utrippin-desc {
+  margin: 0;
+  height: 20px;
+  font-size: 20px;
 }
 
-.overlay {
-  max-height: 0;
+.utrippin-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.utrippin-code {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+}
+
+.utrippin-code:hover{
+  color: rgb(0, 168, 168);
+}
+
+.frogger-img {
+  padding-top: 100px;
+  width: auto;
+  position: relative;
+  z-index: -1;
 }
 
 .frogger-desc {
-  padding-top: 100px;
-  font-size: 30px;
-  opacity: 100%;
-  transition-property: all;
-	transition-duration: 10s;
-  /* transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-  transition-timing-function: ease-in-out; */
-  align-content: center;
-  margin-top: 100px;
+  margin: 0;
+  height: 20px;
+  font-size: 20px;
 }
 
-.frogger-desc-closed {
-  display: none;
+.frogger-links {
+  display: flex;
+  flex-direction: row;
 }
 
 .frogger-code {
-  opacity: 100%;
-  transition-property: all;
-	transition-duration: .5s;
-  /* transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-  transition-timing-function: ease-in-out; */
-  align-content: center;
+  font-size: 20px;
   text-decoration: none;
   color: white;
-  font-size: 30px;
+  transition: ease-in-out;
+  transition-duration: 0.5s;
 }
 
 .frogger-code:hover{
   color: rgb(0, 168, 168);
 }
 
-.frogger-code-closed {
-  display: none;
+.wewatch-img {
+  padding-top: 100px;
+  width: auto;
+  position: relative;
+  z-index: -1;
+}
+
+.wewatch-desc {
+  margin: 0;
+  height: 20px;
+  font-size: 20px;
+}
+
+.wewatch-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.wewatch-code {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+}
+
+.wewatch-code:hover{
+  color: rgb(0, 168, 168);
 }
 
 .skills {
