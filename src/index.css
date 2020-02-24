@@ -805,3 +805,37 @@ body {
   font-size: 15px;
   color: rgb(37,37,37,1);
 }
+
+.section-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.git-icon {
+  width: 2em;
+  height: 2em;
+  
+  margin-left: 10px;
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+  border-radius: 56%;
+}
+
+.git-icon:hover {
+  background-color: white;
+}
+
+.linkedin-icon {
+  width: 2em;
+  height: 2em;
+  
+  margin-left: 10px;
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+  border-radius: 10%;
+}
+
+.linkedin-icon:hover {
+  background-color: white;
+}
+

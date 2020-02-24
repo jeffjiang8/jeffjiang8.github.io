@@ -22,7 +22,15 @@ class Contact extends Component {
                                 occasionally, hitting the gym and playing some basketball. 
                                 I also love to travel, California and Hawaii are my next targets.
                             </p><br></br>
-                            <h2 style={{'margin': '0'}}>Contact Details</h2>
+                            <div  className="section-header">
+                                <h2 style={{'margin': '0'}}>Contact Details</h2>
+                                <a href="https://github.com/jeffjiang8" target="_blank">
+                                    <img src='./images/git.png' alt='meh' className="git-icon"/>
+                                </a>
+                                <a href="https://www.linkedin.com/in/jinfeng-jeff-jiang" target="_blank">
+                                    <img src='./images/linkedin.png' alt='meh' className="linkedin-icon"/>
+                                </a>
+                            </div>
                             <div className="underline" style={{'margin': '0'}}></div>
                             <p>
                                 <span>Jinfeng Jiang</span><br></br>
@@ -32,7 +40,7 @@ class Contact extends Component {
                             </p>
                         </div>
                         <div className="resume">
-                            <button className="download-btn">
+                            <button className="download-btn" style={{'outline': 'none'}}>
                                 <a href="./images/2020JIANG.pdf" target="_blank" className="resume-link">Download Resume</a>
                             </button>
                         </div>
